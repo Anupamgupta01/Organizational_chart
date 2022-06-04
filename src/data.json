@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Tata Steel",
+    "percentage":"50",
+    "targetted":"400",
+    "children": [
+      {
+        "name": "Factory A",
+        "percentage":"20",
+        "targetted":"100"
+      },
+      {
+        "name": "Factory B",
+        "percentage":"75",
+        "targetted":"200",
+        "children": [
+          {
+            "name": "Godown A",
+            "percentage":"75",
+            "targetted":"100"        
+          },
+          {
+            "name": "Godown B",
+            "percentage":"75",
+            "targetted":"100"        
+          }
+        ]
+      },
+      {
+        "name": "Factory C",
+        "percentage":"30",
+        "targetted":"100"
+      }
+    ]
+  }
+]
